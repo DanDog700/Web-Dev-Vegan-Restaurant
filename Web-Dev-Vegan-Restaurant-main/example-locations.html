@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<head>
+  <title>Locations</title>
+  <style>
+  body {
+  background-image: url('https://t3.ftcdn.net/jpg/10/07/95/22/360_F_1007952283_b1x5JJVZ26M8WpKSMtbC8KLFxb1g0OBt.jpg');
+  }
+  
+    p {
+	font-size: 23px;
+	font-family: cursive;
+	}
+  
+    h2 {
+	text-align: center;
+	font-size: 36px;
+	font-family: sans-serif;
+	}
+  
+    h1 {
+      margin: 0;
+      font-size: 2.8em;
+	  font-family: sans-serif;
+    }
+	
+	.container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+			gap: 1px;
+	}
+
+    section {
+	  color: black;
+      padding: 20px;
+      margin: 20px;
+	  margin-top: 100px;
+      background-color: #c19a6b;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	  
+	  
+	  
+	  
+
+    }
+	
+	img {
+      width: 75%; 
+      height: auto; 
+	  margin-left: 13%;
+    }
+	
+	.title-box {
+            background-color: #412920; 
+            color: white; 
+            padding: 20px; 
+            max-width: 60%; 
+            margin: 20px auto; 
+            text-align: center; 
+            border-radius: 10px; 
+		}	
+		
+	a 		{
+			color: #e6ccb3;
+			font-family: cursive;
+			font-size: 27px;
+			text-decoration: none;
+			margin-right:50px;
+		}	
+	a:hover {
+			color: #996633;
+			background-color: transparent;
+			text-decoration: underline;
+		}
+
+  </style>
+</head>
+<body>
+
+<header>
+<div class="title-box">
+  <h1>Locations</h1>
+  <a href="menu.html">Menu</a>
+  <a href="catering.html">Catering</a>
+  <a href="locations.html">Locations</a>
+  <a href="home.html">Home</a>
+   </div>
+</header>
+
+<div class="container">
+ <section>
+  <h2>UT, Brigham City</h2>
+  <h3>4145 Burnside Avenue, 84302</h3>
+  <hr>
+	<img src= "https://s3-us-west-2.amazonaws.com/dronephotos.soldbyair.com/drone-photo-brigham-city-ut-1-small.jpg" alt="image of Brigham City in utah">
+  </section>
+
+<section>
+  <h2>MN, Minnetonka</h2>
+  <h3>283 Willison Street, 55343</h3>
+  <hr>
+  <img src="https://www.narcotics.com/wp-content/uploads/2024/03/minnesota-rehab.jpg" alt="Minnetonka City in Minnesota">
+</section>
+</div>
+
+<section style= "width: 45%; height: auto; margin: 2%;">
+  <h2>AK, Delta Jct</h2>
+  <h3>3591 Kidd Avenue, 99737</h3>
+  <hr>
+  <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/8b/b9/4b/eastern-alaska-range.jpg?w=1400&h=1400&s=1" alt="Delta Junction in Alaska">
+</section>
+<script>
+  // THIS IS A TOOLTIP
+ var alts = document.getElementsByTagName("img");
+ for (var i = 0; i < alts.length; i++) {
+   alts[i].title = alts[i].alt;
+ }
+         
+</script>
+</body>
+</html>

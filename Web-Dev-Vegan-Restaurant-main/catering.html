@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+  <title>Catering</title>
+  <style>
+  body {
+  background-image: url('https://t3.ftcdn.net/jpg/10/07/95/22/360_F_1007952283_b1x5JJVZ26M8WpKSMtbC8KLFxb1g0OBt.jpg');
+  }
+  
+    p {
+	font-size: 23px;
+	font-family: cursive;
+	}
+  
+    h2 {
+	text-align: center;
+	font-size: 36px;
+	font-family: sans-serif;
+	}
+  
+    h1 {
+      margin: 0;
+      font-size: 2.8em;
+	  font-family: sans-serif;
+    }
+	
+	.container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+			gap: 1px;
+	}
+
+    section {
+	  color: black;
+      padding: 20px;
+      margin: 20px;
+	  margin-top: 100px;
+      background-color: #c19a6b;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	  
+	  
+	  
+	  
+    }
+	
+	img {
+      width: 75%; 
+      height: auto; 
+	  margin-left: 13%;
+    }
+	
+	.title-box {
+            background-color: #412920; 
+            color: white; 
+            padding: 20px; 
+            max-width: 60%; 
+            margin: 20px auto; 
+            text-align: center; 
+            border-radius: 10px; 
+		}	
+		
+	a 		{
+			color: #e6ccb3;
+			font-family: cursive;
+			font-size: 27px;
+			text-decoration: none;
+			margin-right:50px;
+		}	
+	a:hover {
+			color: #996633;
+			background-color: transparent;
+			text-decoration: underline;
+		}
+
+  </style>
+</head>
+<body>
+
+<header>
+<div class="title-box">
+  <h1>Catering</h1>
+  <a href="menu.html">Menu</a>
+  <a href="catering.html">Catering</a>
+  <a href="example-locations.html">Locations</a>
+  <a href="home.html">Home</a>
+  </div>
+</header>
+
+<div class="container">
+ <section>
+  <h2>Taco Bar</h2>
+  <hr>
+	<img src= "https://melitastable.com/wp-content/uploads/elementor/thumbs/lotsOfPlantBasedFoodAngle2-pjhyboywbw1ghz95pnfyve5b35b2q6l0v9xfj3vvo0.jpg" alt="food">
+  </section>
+
+<section>
+  <h2>Meal Combinations</h2>
+  <hr>
+  <img src="https://production-next-images-cdn.thumbtack.com/i/504696445837041672/desktop/standard/400square-legacy" alt="lots of food">
+</section>
+</div>
+
+<div class="container">
+  <section>
+      <h2>Salad Bar</h2>
+       <hr>
+    <img src="https://images.squarespace-cdn.com/content/v1/5c6a22320b77bde286751d45/41aada0e-1129-411e-be8f-fdfba9cd8d33/endless-salad-bar.jpg" alt= "food">
+  </section>
+
+<section>
+  <h2>Desserts</h2>
+  <hr>
+  <img src="https://rosaliegourmet.com.au/cdn/shop/files/IMG_3005_600x.jpg?v=1723595086" alt="desserts">
+</section>
+
+</div>
+<script>
+  // THIS IS A TOOLTIP
+ var alts = document.getElementsByTagName("img");
+ for (var i = 0; i < alts.length; i++) {
+   alts[i].title = alts[i].alt;
+ }
+         
+</script>
+</body>
+</html>
